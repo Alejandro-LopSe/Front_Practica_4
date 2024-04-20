@@ -1,0 +1,143 @@
+body{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 96dvh;
+  width: 96dvw;
+
+}
+
+.Comp_1{
+  display: flex;
+  flex-direction: column;
+  height:98.7%;
+  width: 50%;
+  align-self: flex-start;
+  justify-content: space-between;
+  border-style: groove;
+  border-radius: 10px;
+  padding: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  input{
+    border-radius: 4px;
+  }
+  .button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-self: flex-end;
+  }
+  
+}
+.Comp_2{
+  display: flex;
+  flex-direction: column;
+  height:50%;
+  width: 100%;
+  align-self: flex-start;
+  justify-self: flex-start;
+  justify-content: space-between;
+  border-style: groove;
+  border-radius: 10px;
+  padding: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-bottom: -3px;
+  input{
+    border-radius: 4px;
+  }
+  .button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-self: flex-end;
+  }
+  
+}
+.Comp_3{
+  display: flex;
+  flex-direction: column;
+  height:50%;
+  width: 100%;
+  align-self: flex-start;
+  justify-self: flex-start;
+  justify-content: space-between;
+  border-style: groove;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  padding: 5px;
+  margin-bottom: -3px;
+  input{
+    border-radius: 4px;
+  }
+  .button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-self: flex-end;
+  }
+  
+}
+.Page{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height:  100%;
+}
+.Panel{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: -3px;
+  height:  100%;
+}
+
+.data{
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+.pokemon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: ridge;
+}
+.Grass{
+  color: greenyellow;
+}
+.Water{
+  color: blue;
+}
+.Fire{
+  color: red;
+}
+.Electric{
+  color: goldenrod;
+}
+.Poison{
+  color: green;
+}
+.Ground{
+  color: brown;
+}
+.Fairy{
+  color: purple;
+}
+.Bug{
+  color:darkcyan;
+}
+.Psychic{
+  color: lightsalmon;
+}
+
+.users{
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
